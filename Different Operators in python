@@ -1,0 +1,54 @@
+Arithmetic Operators:
+
+Addition: +
+Subtraction: -
+Multiplication: *
+Division: /
+Floor Division: //
+Modulo (Remainder): %
+Exponentiation: **
+
+Comparison Operators:
+
+Equal to: ==
+Not equal to: !=
+Greater than: >
+Less than: <
+Greater than or equal to: >=
+Less than or equal to: <=
+
+Assignment Operators:
+
+Assignment: =
+Addition assignment: +=
+Subtraction assignment: -=
+Multiplication assignment: *=
+Division assignment: /=
+Modulo assignment: %=
+Exponentiation assignment: **=
+Floor division assignment: //=
+
+Logical Operators:
+
+Logical AND: and
+Logical OR: or
+Logical NOT: not
+
+Identity Operators:
+
+Identity equality: is
+Identity inequality: is not
+
+Membership Operators:
+
+Membership (element present): in
+Membership (element not present): not in
+
+Bitwise Operators:
+
+Bitwise AND: &
+Bitwise OR: |
+Bitwise XOR: ^
+Bitwise NOT: ~
+Left shift: <<
+Right shift: >>
