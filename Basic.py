@@ -38,3 +38,39 @@ for itervar in [3, 41, 12, 9, 74, 15]:
     count+=1    
     print("Loop:", itervar, smallest)
 print("Smallest:", smallest)
+
+#sep keyword
+print('cats', 'dogs', 'mice', sep=',')
+
+#if-elif-else statement
+Jane=1996
+Annie=1996
+if Annie%4==0:
+    print("Annie was born in a leap year")
+elif Jane%4==0:
+    print("Jane was born in a leap year")
+else:
+    print("None of them were born in a leap year")
+
+#function default return None
+def new_func():
+    print("PYTHON FOR EVERYONE")
+print(new_func())
+
+#read-write files with open
+with open("C:/Users/Acer/Desktop/portfolio/Example.txt", "r") as File1:
+    lines = File1.readlines()
+    print(type(lines))
+    print(len(lines))
+
+
+
+with open("C:/Users/Acer/Desktop/portfolio/Example.txt", "w") as File1:
+    File1.write("\nWrite this on the text file\n")
+    File1.write("\nWrite this on the text file\n")
+
+#check directory
+import os
+
+current_dir = os.getcwd()
+print(current_dir)
